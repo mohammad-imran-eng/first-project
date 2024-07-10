@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
+/* header section start here */
+ nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    color: #0D1321;
+}
+nav h1 {
+    font-weight: bolder;
+}
+
+nav button {
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.hero-container {
+    height: 652px;
+    background-image: url('../assets/Hero-bg.png');
+    background-repeat: no-repeat;
+}
+.hero-container .hero-img {
+    text-align: center;
+    margin: 32px 0px;
+
+}
+
+.hero-container .hero-text {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 48px;
+}
+.hero-container .hero-desc {
+    font-size: 16px;
+    text-align: center;
+    margin: 32px 0;
+}
+
+.hero-container .hero-button {
+    text-align: center;
+}
+
+.hero-container button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #0D1321;
+    color: white;
+}
+
+/* dev section start here */
+
+.dev-container {
+    display: flex;
+    justify-content: space-around;
+}
+.dev-header {
+    text-align: center;
+    margin-top: 64px;
+}
+.dev-header h1 {
+    margin-bottom: 30px;
+    font-size: 32px;
+    color: #0D1321;
+}
+.dev-header p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #0D1321;
+}
+.dev-container .dev-first-text {
+    margin: 64px 0;
+}
+.dev-container .dev-first-img {
+    margin: 32px 0;
+}
+.dev-container .dev-first-desc {
+    font-size: 16px;
+    margin: 32px 0;
+    color: #0D1321;
+}
+.dev-container h1 {
+    font-weight: bold;
+    font-size: 24px;
+
+} 
+.dev-container button {
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+/* inspire section start here */
+
+.inspire {
+    text-align: center;
+}
+.inspire h1 {
+    font-weight: bolder;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #0D1321;
+}
+.inspire p {
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.inspire iframe {
+    border-radius: 10px;
+}
+.current-target {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.current-target-header {
+    text-align: center;
+    margin-top: 64px;
+}
+.current-target-header h1 {
+    color: #0D1321;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 32px;
+}
+.current-target-header p {
+    font-size: 16px;
+    margin-bottom: 64px;
+}
+
+.current-target-container {
+    display: flex;
+    gap: 20px;
+}
+
+.current-target-container .html {
+    width: 364px;
+    height: 250px;
+    background-color: #FFF6F4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.current-target-container .css {
+    width: 364px;
+    height: 250px;
+    background-color: #F2F6FE;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.current-target-container .js {
+    width: 364px;
+    height: 250px;
+    background-color: #FFFDF2;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.current-target-container h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+.current-target-container p {
+    font-size: 16px;
+    margin: 29px 0;
+    color: #0D1321;
+}
+.current-target-container a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0D1321;
+}
+
+/* next target start here */
+.next-target {
+    width: 1140px;
+    margin: 0 auto;
+}
+.next-target-header {
+    text-align: center;
+    margin: 32px 0;
+}
+.next-target-header h1 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0D1321;
+}
+.next-target-header p {
+    margin-top: 32px;
+    font-size: 16px;
+    color: #0D1321;
+}
+.next-target-card {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.next-target-card h4 {
+    font-weight: bolder;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #0D1321;
+}
+.next-target-card p {
+    font-size: 16px;
+    color: #0D1321;
+    margin-bottom: 10px;
+}
+.next-target-card a {
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* support section start */
+
+.support {
+    width: 1140px;
+    height: 313px;
+    background: url(../assets/handshake.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.support-container {
+    text-align: center;
+    padding: 32px 0;
+}
+.support-container h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+.support-container p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: white;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.form input {
+    width: 548px;
+    height: 57px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.form button {
+    width: 120px;
+    height: 57px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+}
+
+::placeholder {
+    color: #0D1321;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 64px 0;
+}
+.footer-desc {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+}
